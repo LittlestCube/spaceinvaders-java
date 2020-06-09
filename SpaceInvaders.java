@@ -1,7 +1,9 @@
 public class SpaceInvaders
 {
+	static CPU cpu;
+	
 	public static void main(String args[])
 	{
-		CPU cpu = new CPU();
+		cpu = new CPU();
 	}
 }
