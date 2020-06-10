@@ -254,6 +254,14 @@ public class CPU
 				pc.add(1);
 				break;
 			}
+			
+			case 0x14:			// INR D
+			{
+				// TODO
+				
+				pc.add(1);
+				break;
+			}
 		}
 	}
 	
